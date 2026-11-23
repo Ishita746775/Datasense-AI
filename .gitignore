@@ -1,0 +1,42 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit secrets & local state
+.streamlit/secrets.toml
+
+# Uploaded files (keep folder via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exported report outputs (generated at runtime)
+Datasense_AI_Report.txt
+Datasense_AI_Report.pdf
+datasense_dataset.csv
